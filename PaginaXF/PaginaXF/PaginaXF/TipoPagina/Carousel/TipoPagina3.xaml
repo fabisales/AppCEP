@@ -7,7 +7,7 @@
         <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="Tipo de Página" TextColor="Blue"              
                 HorizontalOptions="CenterAndExpand" />
-            <Button Image="play.png" BackgroundColor="Transparent"></Button>
+            <Button Image="play.png" Clicked="MudarPagina" BackgroundColor="Transparent"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

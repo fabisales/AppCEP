@@ -16,5 +16,14 @@ namespace PaginaXF.TipoPagina.Carousel
 		{
 			InitializeComponent ();
 		}
-	}
+
+
+        //Ação do botão(TipoPagina3) 
+        private void MudarPagina(object sender, EventArgs args)
+        {
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.LightGray};
+            App.Current.MainPage = new Tabbed.Abas();
+        }
+
+    }
 }
